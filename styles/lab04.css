@@ -8,11 +8,8 @@
 
 hr {
   height: 3px;
-  /* Adjust the value for desired thickness */
   background-color: black;
-  /* Set a color for the line */
   border: none;
-  /* Remove default border for a solid look */
 }
 
 h1 {

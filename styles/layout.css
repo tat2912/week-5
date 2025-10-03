@@ -5,22 +5,18 @@
  * Created: Week 5
  */
 
-/* Step 2: Override the aside:hover effect from lab04.css */
 aside:hover {
   display: block;
 }
 
-/* Step 2: Make menu paragraphs display inline */
 .menu {
   display: inline-block;
 }
 
-/* Step 2: Remove list-style from navigation lists */
 nav ul {
   list-style: none;
 }
 
-/* Step 3 & 4: Style the aside element with box model properties, sizing and positioning */
 aside {
   border: 4px inset purple;
   border-radius: 14px;
@@ -32,7 +28,6 @@ aside {
   box-shadow: 10px 10px 5px #aaaaaa;
 }
 
-/* Step 3: Style the header element */
 header {
   border: 1px solid darkgray;
   margin: 0.5em;
@@ -41,39 +36,32 @@ header {
   text-align: center;
 }
 
-/* Step 3: Style the footer element with border on top only */
 footer {
   border-top: 4px double darkgray;
   clear: both;
 }
 
-/* Step 4: Float the lists section to the left */
 #list {
   float: left;
 }
 
-/* Step 4: Center the table element */
 table {
   margin: auto;
 }
 
-/* Step 4: Float the tables section to the right */
 #table {
   float: right;
 }
 
-/* Step 4: Clear the hyperlinks section */
 #hyperlink {
   clear: both;
   float: left;
 }
 
-/* Step 4: Float the images section to the right */
 #image {
   float: right;
 }
 
-/* Step 4: Style the figure element */
 figure {
   border: 2px solid #ccc;
   text-align: center;
@@ -81,7 +69,6 @@ figure {
   margin: 1em auto;
 }
 
-/* Step 4: Set width and text-align for the sections in two columns */
 #list,
 #image,
 #table,
@@ -90,25 +77,21 @@ figure {
   text-align: center;
 }
 
-/* Step 4: Fix list alignment */
 ol,
 ul,
 dl {
   text-align: left;
 }
 
-/* Step 4: Set minimum width on article for legibility */
 article {
   min-width: 30em;
 }
 
-/* Step 5: Style footer paragraphs */
 footer p {
   display: inline-block;
   width: 33%;
 }
 
-/* Step 5: Position footer paragraphs using pseudo-class selectors */
 footer p:first-child {
   float: left;
 }
