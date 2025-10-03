@@ -76,6 +76,9 @@ table {
 /* Step 4: Style the figure element */
 figure {
   border: 2px solid #ccc;
+  text-align: center;
+  padding: 1em;
+  margin: 1em auto;
 }
 
 /* Step 4: Set width and text-align for the sections in two columns */
